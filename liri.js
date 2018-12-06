@@ -8,7 +8,7 @@ const Spotify = require('node-spotify-api');
 const request = require('request');
 const moment = require('moment');
 const fs = require('fs');
-const inquire = require('inquire');
+const inquirer = require('inquirer');
 
 // adding keys to spotify.
 let spotify = new Spotify(keys.spotify);
@@ -17,6 +17,7 @@ let spotify = new Spotify(keys.spotify);
 var liriReq = process.argv[2];
 var searchReq = "";
 
+inquirer
 
 if (liriReq === "concert-this"){
 
