@@ -16,8 +16,15 @@ let spotify = new Spotify(keys.spotify);
 
 var liriReq = process.argv[2];
 var searchReq = "";
+// Inquirer prompts, going to make it a choice type
+inquirer.prompt([{
+    type: 'list',
+    name: 'command',
+    message: 'What would you like to do?',
+    choices: ['concert-this','spotify-this','movie-this','do-what-it-says'],
 
-inquirer
+
+}])
 
 if (liriReq === "concert-this"){
 
