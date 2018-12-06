@@ -15,21 +15,7 @@ let spotify = new Spotify(keys.spotify);
 
 // This will hold the search request
 var searchReq = "";
-// boolean to check if search value has 
-var searchFlag = false;
-function searchWhat(){
-    
-    inquirer.prompt([{
-        type: 'input',
-        name: 'userInput',
-        message: 'What would you like to look up?',
 
-    }]).then(function(inquirerResponse){
-        searchReq = inquirerResponse.userInput;
-        searchFlag = true;
-
-    })
-};
 //This is called after the promise of searchWhat is fulfilled
 function concertFunc(){
     axios.get("https://rest.bandsintown.com/artists/" + searchReq + "/events?app_id=codingbootcamp").then(
@@ -43,26 +29,29 @@ inquirer.prompt([{
     type: 'list',
     name: 'command',
     message: 'What would you like to do?',
-    choices: ['concert-this','spotify-this','movie-this','do-what-it-says'],
+    choices: ['concert-this','spotify-this','movie-this','do-what-it-says']
+    },{
+    type: 'input',
+    name: 'value',
+    message: 'Enter a name:'
+    
     
 }]).then(function(inquirerResponse){
     var whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot = inquirerResponse.command;
-
-
+    var promptValueToSearch = inquirerResponse.value.split(" ").join("%20");
+    console.log(promptValueToSearch);
 if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "concert-this"){
-    do {
-        searchWhat();
-    } while(!searchFlag)
-
-    if (searchFlag === true) {
-         concertFunc();
-        };
+    axios.get('https://rest.bandsintown.com/artists/' + promptValueToSearch + '/events?app_id=codingbootcamp').then(
+        function(response){
+            
+            console.log(response.data);
+        }
+        
+    )
 
 } else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "spotify-this-song"){
-    searchWhat();
 
 } else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "movie-this"){
-    searchWhat();
 
 } else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "do-what-it-says"){
 
@@ -71,8 +60,3 @@ if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVari
 }
 
 });
-
-// console.log(liriReq);
-// console.log(searchReq);
-
-
