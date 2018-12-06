@@ -13,32 +13,66 @@ const inquirer = require('inquirer');
 // adding keys to spotify.
 let spotify = new Spotify(keys.spotify);
 
-
-var liriReq = process.argv[2];
+// This will hold the search request
 var searchReq = "";
+// boolean to check if search value has 
+var searchFlag = false;
+function searchWhat(){
+    
+    inquirer.prompt([{
+        type: 'input',
+        name: 'userInput',
+        message: 'What would you like to look up?',
+
+    }]).then(function(inquirerResponse){
+        searchReq = inquirerResponse.userInput;
+        searchFlag = true;
+
+    })
+};
+//This is called after the promise of searchWhat is fulfilled
+function concertFunc(){
+    axios.get("https://rest.bandsintown.com/artists/" + searchReq + "/events?app_id=codingbootcamp").then(
+    function(response) {
+        console.log(response);
+        
+    });
+};
 // Inquirer prompts, going to make it a choice type
 inquirer.prompt([{
     type: 'list',
     name: 'command',
     message: 'What would you like to do?',
     choices: ['concert-this','spotify-this','movie-this','do-what-it-says'],
+    
+}]).then(function(inquirerResponse){
+    var whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot = inquirerResponse.command;
 
 
-}])
+if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "concert-this"){
+    do {
+        searchWhat();
+    } while(!searchFlag)
 
-if (liriReq === "concert-this"){
+    if (searchFlag === true) {
+         concertFunc();
+        };
 
-} else if (liriReq === "spotify-this-song"){
+} else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "spotify-this-song"){
+    searchWhat();
 
-} else if (liriReq === "movie-this"){
+} else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "movie-this"){
+    searchWhat();
 
-} else if (liriReq === "do-what-it-says"){
+} else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "do-what-it-says"){
 
 } else {
     console.log("I DON'T UNDERSTAND!!!")
 }
 
-console.log(liriReq);
-console.log(searchReq);
+});
+
+// console.log(liriReq);
+// console.log(searchReq);
 
 
