@@ -41,10 +41,26 @@ inquirer.prompt([{
     var promptValueToSearch = inquirerResponse.value.split(" ").join("%20");
     console.log(promptValueToSearch);
 if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "concert-this"){
-    axios.get('https://rest.bandsintown.com/artists/' + promptValueToSearch + '/events?app_id=codingbootcamp').then(
+    axios.get('https://rest.bandsintown.com/artists/' + promptValueToSearch + '/events?app_id=codingbootcamp&date=upcoming').then(
         function(response){
+            var jsonData = response.data;
+
+            jsonData.forEach(e => {  
+
+            var venuData = [
+                "----------------------------------------",
+                "Venue: " + e.venue.name,
+                "Location: " + e.venue.city + " " + e.venue.region + " " + e.venue.country,
+                "----------------------------------------",
+
+
+            ].join("\n\n");
+            console.log(venuData);
+            fs.appendFile("log.txt", venuData,(error) => {})
+            });
+
             
-            console.log(response.data);
+            // console.log(jsonData);
         }
         
     )
