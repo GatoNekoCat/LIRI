@@ -37,11 +37,11 @@ inquirer.prompt([{
     
     
 }]).then(function(inquirerResponse){
-    var whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot = inquirerResponse.command;
-    var promptValueToSearch = inquirerResponse.value.split(" ").join("%20");
-    console.log(promptValueToSearch);
-if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "concert-this"){
-    axios.get('https://rest.bandsintown.com/artists/' + promptValueToSearch + '/events?app_id=codingbootcamp&date=upcoming').then(
+    var responseCommand = inquirerResponse.command;
+    var promptValue = inquirerResponse.value.split(" ").join("%20");
+    console.log(promptValue);
+if (responseCommand === "concert-this"){
+    axios.get('https://rest.bandsintown.com/artists/' + promptValue + '/events?app_id=codingbootcamp&date=upcoming').then(
         function(response){
             var jsonData = response.data;
 
@@ -51,6 +51,7 @@ if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVari
                 "----------------------------------------",
                 "Venue: " + e.venue.name,
                 "Location: " + e.venue.city + " " + e.venue.region + " " + e.venue.country,
+                "Date: " + e.datetime,
                 "----------------------------------------",
 
 
@@ -59,17 +60,15 @@ if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVari
             fs.appendFile("log.txt", venuData,(error) => {})
             });
 
-            
-            // console.log(jsonData);
         }
         
     )
 
-} else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "spotify-this-song"){
+} else if (responseCommand === "spotify-this-song"){
 
-} else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "movie-this"){
+} else if (responseCommand === "movie-this"){
 
-} else if (whatDidYouExpectIWonderPeriodToSaveSomeTimeTypingByStoringTheResponseInAVariableIThinkNot === "do-what-it-says"){
+} else if (responseCommand === "do-what-it-says"){
 
 } else {
     console.log("I DON'T UNDERSTAND!!!")
