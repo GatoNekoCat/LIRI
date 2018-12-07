@@ -338,4 +338,308 @@ Location: Rochester MN United States
 
 Date: 2019-07-25T18:30:00
 
-----------------------------------------
+--------------------------------------------------------------------------------,Happy Now (feat. Sandro Cavazza),Song By: undefined,--------------------------------------------------------------------------------,Happy Now (feat. Sandro Cavazza),Song By: Kygo,--------------------------------------------------------------------------------
+
+Venue: Temple Nightclub Denver
+
+Location: Denver CO United States
+
+Date: 2018-12-12T22:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Temple Nightclub
+
+Location: San Francisco CA United States
+
+Date: 2018-12-13T22:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Golden Nugget Hotel & Casino
+
+Location: Lake Charles LA United States
+
+Date: 2018-12-21T20:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: Park City Live
+
+Location: Park City UT United States
+
+Date: 2018-12-15T20:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Motorcity Casino Hotel
+
+Location: Detroit MI United States
+
+Date: 2018-12-27T20:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Oliver Colvin Recital Hall
+
+Location: Boston MA United States
+
+Date: 2019-02-01T16:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Esca Bimbadgen
+
+Location: Pokolbin  Australia
+
+Date: 2019-02-02T16:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Soaring Eagle Casino & Resort
+
+Location: Mount Pleasant MI United States
+
+Date: 2018-12-28T20:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Sirromet Wines
+
+Location: Mount Cotton  Australia
+
+Date: 2019-02-03T15:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: GILLIGANS CAIRNS
+
+Location: Cairns  Australia
+
+Date: 2019-02-05T19:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: DISCOVERY DARWIN
+
+Location: Darwin  Australia
+
+Date: 2019-02-06T19:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Trak Lounge Bar
+
+Location: Toorak  Australia
+
+Date: 2019-02-08T19:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: Mt Duneed Estate
+
+Location: Waurn Ponds  Australia
+
+Date: 2019-02-09T14:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: Leconfield Wines
+
+Location: Mclaren Vale  Australia
+
+Date: 2019-02-10T15:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Kings Park
+
+Location: West Perth  Australia
+
+Date: 2019-02-13T19:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: BB&T Arena
+
+Location: Highland Heights KY United States
+
+Date: 2019-03-15T19:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: OLMSTED COUNTY FAIR
+
+Location: Rochester MN United States
+
+Date: 2019-07-25T18:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: Temple Nightclub Denver
+
+Location: Denver CO United States
+
+Date: 2018-12-12T22:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Temple Nightclub
+
+Location: San Francisco CA United States
+
+Date: 2018-12-13T22:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Park City Live
+
+Location: Park City UT United States
+
+Date: 2018-12-15T20:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Motorcity Casino Hotel
+
+Location: Detroit MI United States
+
+Date: 2018-12-27T20:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Golden Nugget Hotel & Casino
+
+Location: Lake Charles LA United States
+
+Date: 2018-12-21T20:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: Soaring Eagle Casino & Resort
+
+Location: Mount Pleasant MI United States
+
+Date: 2018-12-28T20:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Oliver Colvin Recital Hall
+
+Location: Boston MA United States
+
+Date: 2019-02-01T16:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Esca Bimbadgen
+
+Location: Pokolbin  Australia
+
+Date: 2019-02-02T16:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Sirromet Wines
+
+Location: Mount Cotton  Australia
+
+Date: 2019-02-03T15:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: GILLIGANS CAIRNS
+
+Location: Cairns  Australia
+
+Date: 2019-02-05T19:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Trak Lounge Bar
+
+Location: Toorak  Australia
+
+Date: 2019-02-08T19:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: DISCOVERY DARWIN
+
+Location: Darwin  Australia
+
+Date: 2019-02-06T19:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Leconfield Wines
+
+Location: Mclaren Vale  Australia
+
+Date: 2019-02-10T15:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Mt Duneed Estate
+
+Location: Waurn Ponds  Australia
+
+Date: 2019-02-09T14:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: BB&T Arena
+
+Location: Highland Heights KY United States
+
+Date: 2019-03-15T19:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: OLMSTED COUNTY FAIR
+
+Location: Rochester MN United States
+
+Date: 2019-07-25T18:30:00
+
+--------------------------------------------------------------------------------
+
+Venue: Kings Park
+
+Location: West Perth  Australia
+
+Date: 2019-02-13T19:00:00
+
+--------------------------------------------------------------------------------,Happy Now (feat. Sandro Cavazza),Song By: Kygo,Album: Happy Now (feat. Sandro Cavazza),--------------------------------------------------------------------------------,Happy Now (feat. Sandro Cavazza),Song By: Kygo,Album: Happy Now (feat. Sandro Cavazza),--------------------------------------------------------------------------------,Happy Now (feat. Sandro Cavazza),Song By: Kygo,Album: Happy Now (feat. Sandro Cavazza),--------------------------------------------------------------------------------,Happy Now (feat. Sandro Cavazza),Song By: Kygo,Album: Happy Now (feat. Sandro Cavazza),--------------------------------------------------------------------------------
+
+Venue: Belly Up Aspen (DJ Set)
+
+Location: Aspen CO United States
+
+Date: 2018-12-31T20:30:46
+
+--------------------------------------------------------------------------------
+
+Venue: Shibuya Stream Hall
+
+Location: Shibuya-ku Tōkyō-to Japan
+
+Date: 2019-04-27T21:00:00
+
+--------------------------------------------------------------------------------
+
+Venue: Belly Up Aspen (DJ Set)
+
+Location: Aspen CO United States
+
+Date: 2018-12-30T20:30:36
+
+--------------------------------------------------------------------------------
+
+Venue: Shibuya Stream Hall
+
+Location: Shibuya-ku Tōkyō-to Japan
+
+Date: 2019-04-26T21:00:00
+
+--------------------------------------------------------------------------------,Happy Now (feat. Sandro Cavazza),Song By: Kygo,Album: Happy Now (feat. Sandro Cavazza),----------------------------------------
